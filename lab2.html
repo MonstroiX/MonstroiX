@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя HTML-страница с Flex и стилями</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background-color: #f5f5f5;">
+
+    <header style="background-color: #e3f2fd; padding: 20px; text-align: center;">
+        <h1 style="margin: 0; color: #0d47a1;">Добро пожаловать на мой сайт</h1>
+    </header>
+
+    <nav style="background-color: #bbdefb; padding: 10px; text-align: center;">
+        <a href="#" style="margin: 0 10px; text-decoration: none; color: #0d47a1;">Главная</a>
+        <a href="#" style="margin: 0 10px; text-decoration: none; color: #0d47a1;">О нас</a>
+        <a href="#" style="margin: 0 10px; text-decoration: none; color: #0d47a1;">Контакты</a>
+    </nav>
+
+    <main style="margin-top: 20px;">
+        <section style="margin-bottom: 20px;">
+            <h2 style="color: #1b5e20;">О компании</h2>
+            <p style="color: #424242;">Наша компания занимается разработкой современных веб-сайтов и приложений.</p>
+        </section>
+
+        <!-- Flex-контейнер -->
+        <div style="display: flex; justify-content: space-around; gap: 15px; padding: 15px; background-color: #ffffff; border: 1px solid #ccc; border-radius: 10px;">
+            <article style="flex: 1; background-color: #e8f5e9; padding: 10px; text-align: center;">
+                <h3 style="margin-top: 0;">Услуга 1</h3>
+                <p>Мы создаём адаптивные сайты.</p>
+            </article>
+            <article style="flex: 1; background-color: #fff3e0; padding: 10px; text-align: center;">
+                <h3 style="margin-top: 0;">Услуга 2</h3>
+                <p>Мы разрабатываем интерфейсы с использованием HTML и CSS.</p>
+            </article>
+            <article style="flex: 1; background-color: #e1f5fe; padding: 10px; text-align: center;">
+                <h3 style="margin-top: 0;">Услуга 3</h3>
+                <p>Мы внедряем современные UI/UX решения.</p>
+            </article>
+        </div>
+    </main>
+
+    <footer style="background-color: #cfd8dc; padding: 15px; text-align: center; margin-top: 20px;">
+        <p style="margin: 0;">&copy; 2025 Моя компания</p>
+    </footer>
+
+</body>
+</html>
