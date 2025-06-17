@@ -1,0 +1,55 @@
+/* 1. Селектор по тегу */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 2. Селектор по id */
+#main-header {
+    background-color: #1976d2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3. Селектор по классу */
+.title {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* 4. Селектор по классу и тегу (комбинированный) */
+nav ul.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    background-color: #bbdefb;
+    margin: 20px 0;
+}
+
+/* 5. Селектор по атрибуту */
+a[href] {
+    text-decoration: none;
+    color: #0d47a1;
+}
+
+/* Flex-контейнер */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Элементы внутри flex-контейнера */
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
